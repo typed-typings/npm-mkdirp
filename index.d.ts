@@ -7,7 +7,7 @@ declare module mkdirp {
     mode: number;
   }
 
-  export function sync (path: string, opts: mkdirp.Opts): string;
+  export function sync (path: string, opts?: mkdirp.Opts): string;
 }
 
 export = mkdirp;
